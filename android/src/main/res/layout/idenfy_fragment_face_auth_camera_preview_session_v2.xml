@@ -1,0 +1,29 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/idenfy_camera_view_root_layout"
+    android:animateLayoutChanges="true"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/idenfy_fragment_face_camera_preview_session_v2" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/idenfy_imageview_language_selection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:paddingEnd="16dp"
+            android:visibility="gone"
+            app:tint="@color/idenfyFaceAuthenticationCameraPreviewSessionAppBarCameraLanguageSelectionTintColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/idenfy_ic_language_selection_button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
