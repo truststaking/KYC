@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:async';
@@ -51,7 +53,13 @@ class _MyAppState extends State<MyApp> {
     Exception? localException;
     try {
       String authToken = await getAuthTokenRequest();
+      log('authToken: $authToken', name: 'initIdenfySdk');
       idenfySDKresult = await IdenfySdkFlutter.start(authToken);
+      log('''autoIdentificationStatus: ${idenfySDKresult.autoIdentificationStatus}, 
+      ${idenfySDKresult.manualIdentificationStatus}
+      ${idenfySDKresult.suspectedIdentificationStatus.autoSuspected}
+      ${idenfySDKresult.suspectedIdentificationStatus.manualSuspected}
+      ''', name: 'initIdenfySdk');
     } on Exception catch (e) {
       localException = e;
     }
