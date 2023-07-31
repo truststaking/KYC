@@ -33,6 +33,9 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
                 IdenfyCommonColors.idenfyBackgroundColorV2 = UIColor(hexString:"#121212")
                 IdenfyCommonColors.idenfyLogoTintColorV2 = UIColor(hexString: "#FFFFFF")
 
+                // ConstsIdenfyImages.idenfy_ic_gradient_splash_screen_background = "background"
+                // ConstsIdenfyImages.idenfy_ic_splash_screen_logo 
+
 
                 //Buttons settings
                 IdenfyButtonsUISettingsV2.idenfyGradientButtonColorStart = idenfyYellowLime
