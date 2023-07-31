@@ -137,6 +137,11 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
 
                 //Language Selection View
                 IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewBackgroundColor = idenfyGrey700
+                IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewBackgroundColor = IdenfyCommonColors.idenfyBackgroundColorV2
+                IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewTitleTextColor = IdenfyCommonColors.idenfySecondColorV2
+                IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellTextColor = IdenfyCommonColors.idenfySecondColorV2
+                IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellHighlightedTextColor = IdenfyCommonColors.idenfyWhite
+                IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellHighlightedBackgroundColor = IdenfyCommonColors.idenfyMainColorV2
                 IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewBorderColor = idenfyLime
                 IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellBackgroundColor = idenfyGrey700
                 IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellBorderColor = idenfyLime
