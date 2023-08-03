@@ -550,12 +550,20 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
                 // livenessSettings.livenessResultScreenUploadProgressTrackColor = UIColor.black
                 // livenessSettings.livenessIdentificationProgressStrokeColor = UIColor.blue
 
+                let idenfyUISettings = IdenfyUIBuilderV2()
+                    .build()
+
                 let idenfySettingsV2 = IdenfyBuilderV2()
                     .withAuthToken(authToken)
+                    // .withUISettingsV2(idenfyUISettings)
+                    .build()
+
+                let idenfyViewsV2: IdenfyViewsV2 = IdenfyViewsBuilderV2()
+                    .withSplashScreenV2View(SplashScreenV2View())
                     .build()
 
                 let idenfyController = IdenfyController.shared
-                idenfyController.initializeIdenfySDKV2WithManual(idenfySettingsV2: idenfySettingsV2)
+                idenfyController.initializeIdenfySDKV2WithManual(idenfySettingsV2: idenfySettingsV2, idenfyViewsV2: idenfyViewsV2)
                 let idenfyVC = idenfyController.instantiateNavigationController()
 
                 UIApplication.shared.keyWindow?.rootViewController?.present(idenfyVC, animated: true, completion: nil)
