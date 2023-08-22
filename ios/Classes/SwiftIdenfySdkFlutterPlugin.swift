@@ -18,6 +18,7 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
             if let arguments = call.arguments as? [String: Any],
                let authToken = arguments["authToken"] as? String {
 
+                var idenfyGrey1000 = UIColor(hexString:"#000000")
                 var idenfyGrey700 = UIColor(hexString:"#1B1B1B")
                 var idenfyGrey300 = UIColor(hexString:"#383838")
                 var idenfyGrey100 = UIColor(hexString:"#888888")
@@ -77,9 +78,9 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
                 //Country Selection View
                 IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountrySearchBarBackgroundColor = idenfyGrey700;
                 IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewBackgroundColor = idenfyGrey700
-                IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewBorderColor = idenfyLime
-                IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewCellBackgroundColor = idenfyGrey700
-                IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewCellBorderColor = idenfyLime
+                IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewBorderColor = idenfyGrey700
+                IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewCellBackgroundColor = idenfyGrey1000
+                IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewCellBorderColor = idenfyGrey700
                 IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountrySearchBarBorderWidth = 1
                 IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewBorderWidth = 1
                 IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewBackgroundColor = IdenfyCommonColors.idenfyBackgroundColorV2
@@ -116,9 +117,9 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
 
                 //Document Selection View
                 IdenfyDocumentSelectionViewUISettingsV2.idenfyDocumentSelectionViewDocumentTableViewBackgroundColor = idenfyGrey700
-                IdenfyDocumentSelectionViewUISettingsV2.idenfyDocumentSelectionViewDocumentTableViewBorderColor = idenfyLime
-                IdenfyDocumentSelectionViewUISettingsV2.idenfyDocumentSelectionViewDocumentTableViewCellBackgroundColor = idenfyGrey700
-                IdenfyDocumentSelectionViewUISettingsV2.idenfyDocumentSelectionViewDocumentTableViewCellBorderColor = idenfyLime
+                IdenfyDocumentSelectionViewUISettingsV2.idenfyDocumentSelectionViewDocumentTableViewBorderColor = idenfyGrey700
+                IdenfyDocumentSelectionViewUISettingsV2.idenfyDocumentSelectionViewDocumentTableViewCellBackgroundColor = idenfyGrey1000
+                IdenfyDocumentSelectionViewUISettingsV2.idenfyDocumentSelectionViewDocumentTableViewCellBorderColor = idenfyGrey700
                 IdenfyDocumentSelectionViewUISettingsV2.idenfyDocumentSelectionViewContinueButtonDisabledBackgroundColor = idenfyLime
                 IdenfyDocumentSelectionViewUISettingsV2.idenfyDocumentSelectionViewDocumentTableViewBorderWidth = 1
                 IdenfyDocumentSelectionViewUISettingsV2.idenfyDocumentSelectionViewDocumentTableViewCellBorderWidth = 1
@@ -255,9 +256,9 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
                 IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellTextColor = IdenfyCommonColors.idenfySecondColorV2
                 IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellHighlightedTextColor = IdenfyCommonColors.idenfyWhite
                 IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellHighlightedBackgroundColor = IdenfyCommonColors.idenfyMainColorV2
-                IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewBorderColor = idenfyLime
-                IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellBackgroundColor = idenfyGrey700
-                IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellBorderColor = idenfyLime
+                IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewBorderColor = idenfyGrey700
+                IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellBackgroundColor = idenfyGrey1000
+                IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellBorderColor = idenfyGrey700
                 IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewBorderWidth = 1
                 IdenfyLanguageSelectionViewUISettingsV2.idenfyLanguageSelectionViewLanguageTableViewCellBorderWidth = 1
 

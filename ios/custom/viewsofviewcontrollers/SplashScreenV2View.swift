@@ -15,7 +15,7 @@ import idenfyviews
     override public init(frame: CGRect) {
         super.init(frame: frame)
         setupConstraints()
-        backgroundColor = UIColor(hexString:"#AEFB4F")
+        backgroundColor = UIColor(hexString:"#121212")
     }
 
     public required init?(coder _: NSCoder) {
@@ -25,7 +25,7 @@ import idenfyviews
     public var splashScreenTitle: UILabel = {
         let label = UILabel(frame: .zero)
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = UIColor(hexString: "#121212")
+        label.textColor = UIColor(hexString: "#FFFFFF")
         label.numberOfLines = 0
         label.font = UIFont(name: "HKGrotesk-Regular", size: 13)
         label.textAlignment = .center
