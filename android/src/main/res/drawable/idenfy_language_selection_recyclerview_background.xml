@@ -5,18 +5,19 @@
             <!-- This is the line -->
             <item>
                 <shape>
+                    <corners android:radius="4dp" />
                     <padding
                         android:bottom="0dp"
                         android:left="0dp"
                         android:right="0dp"
                         android:top="0dp" />
-                    <solid android:color="@color/idenfyLanguageSelectionViewLanguageRecyclerViewItemBorderColor" />
+                    <solid android:color="@color/idenfyLanguageSelectionViewLanguageRecyclerViewBorderColor" />
                 </shape>
             </item>
             <!-- This is the main color -->
             <item>
                 <shape>
-                    <solid android:color="@color/idenfyLanguageSelectionViewLanguageRecyclerViewItemBackgroundColor" />
+                    <solid android:color="@color/idenfyLanguageSelectionViewLanguageRecyclerViewBackgroundColor" />
                 </shape>
             </item>
         </layer-list>

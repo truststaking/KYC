@@ -631,7 +631,7 @@
     <color name="idenfySecondColor80percentV2">#CC353B4E</color>
     <color name="idenfySecondColorV2">#FFFFFF</color>
     <color name="idenfySplashScreenBackgroundColor">@color/idenfyWhite</color>
-    <color name="idenfySplashScreenViewDescriptionTextColor">#0F0F0F</color>
+    <color name="idenfySplashScreenViewDescriptionTextColor">#FFFFFF</color>
     <color name="idenfyStepErrorColorV2">#D32F2F</color>
     <color name="idenfyStepSuccessColorV2">@color/idenfyMainDarkerColorV2</color>
     <color name="idenfyTakePhotoButtonBackgroundFocused">@color/idenfyMainDarkerColorV2</color>
