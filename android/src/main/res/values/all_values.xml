@@ -99,7 +99,7 @@
     <color name="idenfyCountrySelectionViewDescriptionTextColor">@color/idenfySecondColorV2</color>
     <color name="idenfyCountrySelectionViewTitleTextColor">@color/idenfySecondColorV2</color>
     <color name="idenfyCountryViewSelectionCountrySearchBarBorderColor">
-        @color/idenfySecondColor6percentV2
+        @color/idenfyGrey100
     </color>
     <color name="idenfyCustomAlertDialogNegativeButtonColor">@color/idenfyMainColorV2</color>
     <color name="idenfyCustomAlertDialogPositiveButtonColor">@color/idenfyMainColorV2</color>
@@ -524,7 +524,7 @@
     <color name="idenfyNextButtonColor">@color/idenfyColorAccent</color>
     <color name="idenfyNoBackButtonAppBarBackgroundColor">@color/idenfyBackground</color>
     <color name="idenfyPhotoResultAppBarBackButtonTextColor">@color/idenfyWhite</color>
-    <color name="idenfyPhotoResultAppBarBackgroundColor">@color/idenfyWhite</color>
+    <color name="idenfyPhotoResultAppBarBackgroundColor">@color/idenfyBackground</color>
     <color name="idenfyPhotoResultBackgroundColor">#000000</color>
     <color name="idenfyPhotoResultDetailsCardBackgroundColorV2">@color/idenfyGrey300</color>
     <color name="idenfyPrivacyPolicyCommonInformationTitleTextColor">@color/idenfySecondColorV2</color>
@@ -1382,11 +1382,16 @@
         <item name="colorPrimaryDark">@color/idenfyColorPrimaryDark</item>
         <item name="colorAccent">@color/idenfyColorAccent</item>
     </style>
-    <style name="IdenfyTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="IdenfyTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/idenfyMainColorV2</item>
+        <item name="colorPrimaryDark">@color/idenfyColorPrimaryDark</item>
+        <item name="colorAccent">@color/idenfyGradientAccentV2</item>
+        <item name="android:background">@color/idenfyColorPrimaryDark</item>
+    </style>
     <style name="IdenfyTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
     <style name="IdenfyThemeV2" parent="Theme.MaterialComponents.NoActionBar">
         <item name="colorPrimary">@color/idenfyMainColorV2</item>
-        <item name="colorPrimaryDark">@color/idenfySecondColorV2</item>
+        <item name="colorPrimaryDark">@color/idenfyColorPrimaryDark</item>
         <item name="colorAccent">@color/idenfyGradientAccentV2</item>
     </style>
     <style name="LoadingSpinner">
