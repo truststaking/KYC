@@ -35,7 +35,7 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
                 IdenfyCommonColors.idenfyLogoTintColorV2 = UIColor(hexString: "#FFFFFF")
 
                 // ConstsIdenfyImages.idenfy_ic_gradient_splash_screen_background = "background"
-                // ConstsIdenfyImages.idenfy_ic_splash_screen_logo 
+                //ConstsIdenfyImages.idenfy_ic_splash_screen_logo
 
 
                 //Buttons settings
@@ -507,8 +507,10 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
 
 
                 //Toolbar UI
+                IdenfyToolbarUISettingsV2.idenfyLogoHeight = 13
+                IdenfyToolbarUISettingsV2.idenfyLogoWidth = 70.5
                 IdenfyToolbarUISettingsV2.idenfyDefaultToolbarBackgroundColor = IdenfyCommonColors.idenfyMainColorV2
-                IdenfyToolbarUISettingsV2.idenfyDefaultToolbarLogoIconTintColor = IdenfyCommonColors.idenfyMainColorV2
+                IdenfyToolbarUISettingsV2.idenfyDefaultToolbarLogoIconTintColor = nil
                 IdenfyToolbarUISettingsV2.idenfyDefaultToolbarBackIconTintColor = UIColor.white
                 IdenfyToolbarUISettingsV2.idenfyLanguageSelectionToolbarLanguageSelectionIconTintColor = UIColor.white
                 IdenfyToolbarUISettingsV2.idenfyLanguageSelectionToolbarCloseIconTintColor = UIColor.white
