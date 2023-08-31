@@ -46,7 +46,7 @@
     </color>
     <color name="idenfyCameraPreviewSessionAppBarBackButtonTextColor">@color/idenfyBlack</color>
     <color name="idenfyCameraPreviewSessionAppBarBackButtonTintColor">@color/idenfyWhite</color>
-    <color name="idenfyCameraPreviewSessionAppBarBackgroundColor">@color/idenfyBackground</color>
+    <color name="idenfyCameraPreviewSessionAppBarBackgroundColor">@android:color/transparent</color>
     <color name="idenfyCameraPreviewSessionAppBarCameraFlashButtonTintColor">@color/idenfyWhite</color>
     <color name="idenfyCameraPreviewSessionAppBarFaceNotDetectedAlertTintColor">@color/idenfyGrayColorV2</color>
     <color name="idenfyCameraStaticOnBoardingViewDescriptionColor">@color/idenfySecondColorV2</color>
