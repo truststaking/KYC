@@ -38,9 +38,9 @@ import UIKit
     // Idenfy Provider Selection View Style
 
     public static var idenfyProviderSelectionViewProviderSearchBarBorderWidth = CGFloat(2)
-    public static var idenfyProviderSelectionViewProviderSearchBarCorderRadius = CGFloat(3)
+    public static var idenfyProviderSelectionViewProviderSearchBarCorderRadius = CGFloat(8)
     public static var idenfyProviderSelectionViewProviderTableViewBorderWidth = CGFloat(2)
-    public static var idenfyProviderSelectionViewProviderTableViewCornerRadius = CGFloat(3)
+    public static var idenfyProviderSelectionViewProviderTableViewCornerRadius = CGFloat(8)
     public static var idenfyProviderSelectionViewProviderTableViewCellBorderWidth = CGFloat(2)
     public static var idenfyProviderSelectionViewProviderTableViewCellHeight = CGFloat(50)
 }

@@ -33,6 +33,6 @@ import UIKit
 
     // Idenfy MFA General View Style
 
-    public static var idenfyMFAGeneralViewInputViewCorderRadius = CGFloat(3)
+    public static var idenfyMFAGeneralViewInputViewCorderRadius = CGFloat(8)
     public static var idenfyMFAGeneralViewInputViewBorderWidth = CGFloat(1)
 }

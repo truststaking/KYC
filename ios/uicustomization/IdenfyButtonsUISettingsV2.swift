@@ -20,6 +20,6 @@ import UIKit
 
     // Idenfy Buttons Style
 
-    public static var idenfyButtonCorderRadius = CGFloat(3)
-    public static var idenfyChooseAnotherPhotoButtonCornerRadius = CGFloat(2)
+    public static var idenfyButtonCorderRadius = CGFloat(32)
+    public static var idenfyChooseAnotherPhotoButtonCornerRadius = CGFloat(8)
 }

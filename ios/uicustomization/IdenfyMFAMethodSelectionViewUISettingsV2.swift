@@ -31,6 +31,6 @@ import UIKit
 
     // Idenfy MFA Method Selection View Style
 
-    public static var idenfyMFAMethodSelectionViewInputViewCorderRadius = CGFloat(3)
+    public static var idenfyMFAMethodSelectionViewInputViewCorderRadius = CGFloat(8)
     public static var idenfyMFAMethodSelectionViewInputViewBorderWidth = CGFloat(1)
 }

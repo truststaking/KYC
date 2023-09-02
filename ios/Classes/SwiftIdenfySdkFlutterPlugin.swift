@@ -18,6 +18,7 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
             if let arguments = call.arguments as? [String: Any],
                let authToken = arguments["authToken"] as? String {
 
+                var grey700 = UIColor(hexString:"#FF1B1B1B")
                 var idenfyGrey1000 = UIColor(hexString:"#000000")
                 var idenfyGrey700 = UIColor(hexString:"#1B1B1B")
                 var idenfyGrey300 = UIColor(hexString:"#383838")
@@ -39,7 +40,7 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
 
 
                 //Buttons settings
-                IdenfyButtonsUISettingsV2.idenfyGradientButtonColorStart = idenfyYellowLime
+                IdenfyButtonsUISettingsV2.idenfyGradientButtonColorStart = idenfyLime
                 IdenfyButtonsUISettingsV2.idenfyGradientButtonColorEnd = idenfyLime
 
                 
@@ -76,7 +77,7 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
 
 
                 //Country Selection View
-                IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountrySearchBarBackgroundColor = idenfyGrey700;
+                IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountrySearchBarBackgroundColor = idenfyGrey1000;
                 IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewBackgroundColor = idenfyGrey700
                 IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewBorderColor = idenfyGrey700
                 IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewCellBackgroundColor = idenfyGrey1000
@@ -91,7 +92,7 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
                 IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewCellTextColor = IdenfyCommonColors.idenfySecondColorV2
                 IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewCellHighlightedTextColor = IdenfyCommonColors.idenfyWhite
                 IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountryTableViewCellHighlightedBackgroundColor = IdenfyCommonColors.idenfyMainColorV2
-                IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountrySearchBarBorderColor = IdenfyCommonColors.idenfySecondColorV2
+                IdenfyCountrySelectionViewUISettingsV2.idenfyCountrySelectionViewCountrySearchBarBorderColor = idenfyGrey700
 
 
                 //Doc Not Found Alert UI

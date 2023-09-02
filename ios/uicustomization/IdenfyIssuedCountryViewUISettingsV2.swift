@@ -28,6 +28,6 @@ import UIKit
     // Idenfy Issued Country View Style
 
     public static var idenfyIssuedCountryViewCountryViewBorderWidth = CGFloat(2)
-    public static var idenfyIssuedCountryViewCountryViewCorderRadius = CGFloat(3)
+    public static var idenfyIssuedCountryViewCountryViewCorderRadius = CGFloat(8)
     public static var idenfyIssuedCountryViewCountryFlagBorderWidth = CGFloat(1)
 }

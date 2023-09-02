@@ -30,7 +30,7 @@ import UIKit
     // Idenfy Language Selection View Style
 
     public static var idenfyLanguageSelectionViewLanguageTableViewBorderWidth = CGFloat(2)
-    public static var idenfyLanguageSelectionViewLanguageTableViewCornerRadius = CGFloat(3)
+    public static var idenfyLanguageSelectionViewLanguageTableViewCornerRadius = CGFloat(8)
     public static var idenfyLanguageSelectionViewLanguageTableViewCellBorderWidth = CGFloat(2)
     public static var idenfyLanguageSelectionViewLanguageTableViewCellHeight = CGFloat(50)
 }

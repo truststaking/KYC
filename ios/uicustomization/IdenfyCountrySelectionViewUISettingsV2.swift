@@ -38,9 +38,9 @@ import UIKit
     // Idenfy Country Selection View Style
 
     public static var idenfyCountrySelectionViewCountrySearchBarBorderWidth = CGFloat(2)
-    public static var idenfyCountrySelectionViewCountrySearchBarCorderRadius = CGFloat(3)
+    public static var idenfyCountrySelectionViewCountrySearchBarCorderRadius = CGFloat(8)
     public static var idenfyCountrySelectionViewCountryTableViewBorderWidth = CGFloat(2)
-    public static var idenfyCountrySelectionViewCountryTableViewCornerRadius = CGFloat(3)
+    public static var idenfyCountrySelectionViewCountryTableViewCornerRadius = CGFloat(8)
     public static var idenfyCountrySelectionViewCountryFlagBorderWidth = CGFloat(1)
     public static var idenfyCountrySelectionViewCountryTableViewCellBorderWidth = CGFloat(2)
     public static var idenfyCountrySelectionViewCountryTableViewCellHeight = CGFloat(50)

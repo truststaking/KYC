@@ -68,8 +68,8 @@ import UIKit
     // Idenfy Questionnaire View Styles
     
     // Question Cells
-    public static var idenfyTextQuestionCellViewTextFieldCornerRadius = CGFloat(3)
+    public static var idenfyTextQuestionCellViewTextFieldCornerRadius = CGFloat(8)
     public static var idenfyTextQuestionCellViewTextFieldBorderWidth = CGFloat(1)
     public static var idenfyFileQuestionCellViewContainerBorderWidth = CGFloat(1)
-    public static var idenfyFileQuestionCellViewContainerCornerRadius = CGFloat(3)
+    public static var idenfyFileQuestionCellViewContainerCornerRadius = CGFloat(8)
 }

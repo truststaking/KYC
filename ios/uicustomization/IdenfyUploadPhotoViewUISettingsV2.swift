@@ -33,7 +33,7 @@ import UIKit
     // Idenfy Upload Photo View Style
 
     public static var idenfyUploadPhotoViewCroppingViewBorderWidth = CGFloat(2)
-    public static var idenfyUploadPhotoViewCroppingViewCornerRadius = CGFloat(3)
+    public static var idenfyUploadPhotoViewCroppingViewCornerRadius = CGFloat(8)
     public static var idenfyUploadPhotoViewCroppingRectangleCornerRadius = CGFloat(4)
     public static var idenfyUploadPhotoViewCroppingViewMinimumZoomScale = CGFloat(1)
     public static var idenfyUploadPhotoViewCroppingViewMaximumZoomScale = CGFloat(5)

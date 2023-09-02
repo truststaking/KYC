@@ -39,8 +39,8 @@ import UIKit
 
     // Idenfy Provider Login View Style
 
-    public static var idenfyProviderLoginViewUsernameInputViewCorderRadius = CGFloat(3)
-    public static var idenfyProviderLoginViewPasswordInputViewCorderRadius = CGFloat(3)
+    public static var idenfyProviderLoginViewUsernameInputViewCorderRadius = CGFloat(8)
+    public static var idenfyProviderLoginViewPasswordInputViewCorderRadius = CGFloat(8)
     public static var idenfyProviderLoginViewUsernameInputBorderWidth = CGFloat(1)
     public static var idenfyProviderLoginViewPasswordInputBorderWidth = CGFloat(1)
 }

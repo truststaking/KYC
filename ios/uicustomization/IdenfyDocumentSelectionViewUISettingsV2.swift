@@ -35,7 +35,7 @@ import UIKit
     // Idenfy Document Selection View Style
 
     public static var idenfyDocumentSelectionViewDocumentTableViewBorderWidth = CGFloat(2)
-    public static var idenfyDocumentSelectionViewDocumentTableViewCornerRadius = CGFloat(3)
+    public static var idenfyDocumentSelectionViewDocumentTableViewCornerRadius = CGFloat(8)
     public static var idenfyDocumentSelectionViewDocumentTableViewCellBorderWidth = CGFloat(2)
     public static var idenfyDocumentSelectionViewDocumentTableViewCellHeight = CGFloat(56)
 }

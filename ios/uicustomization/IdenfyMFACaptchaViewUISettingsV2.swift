@@ -31,6 +31,6 @@ import UIKit
 
     // Idenfy MFA Captcha View Style
 
-    public static var idenfyMFACaptchaViewInputViewCorderRadius = CGFloat(3)
+    public static var idenfyMFACaptchaViewInputViewCorderRadius = CGFloat(8)
     public static var idenfyMFACaptchaViewInputViewBorderWidth = CGFloat(1)
 }
