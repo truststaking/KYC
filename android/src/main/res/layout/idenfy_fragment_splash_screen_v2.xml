@@ -5,20 +5,6 @@
     android:background="@drawable/idenfy_ic_gradient_splash_screen_background">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="-10dp"
-        android:layout_marginBottom="-10dp"
-        android:adjustViewBounds="true"
-        android:cropToPadding="false"
-        android:scaleType="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/idenfy_ic_gradient_splash_screen_background_drawable_v2" />
-
-    <ImageView
         android:id="@+id/idenfy_imageview_splash_screen_icon"
         android:layout_width="120dp"
         android:layout_height="60dp"
