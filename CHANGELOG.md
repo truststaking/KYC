@@ -1,3 +1,17 @@
+## 2.4.0
+* iOS SDK updated to 8.2.3
+* Added camera initialization error alert
+* Added questionnaire file upload validations
+* Updated Face Liveness version
+* Small UI glitch and bug fixes
+
+## 2.3.9
+* Android SDK updated to 8.2.7
+* Added camera initialization error alert
+* Updated Face Liveness version
+* Jcenter repository removed
+* Bug fixes
+
 ## 2.3.8
 * Android SDK updated to 8.2.6
 * Face authentication virtual camera detection improvements (Better detection rate)
