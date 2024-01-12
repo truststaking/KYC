@@ -23,11 +23,11 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/idenfy_sdk_flutter/ios"
 
 SPEC CHECKSUMS:
-  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   idenfy_sdk_flutter: a57d85f031dbf7aa0061f248b2e6f34edd2833fd
   iDenfySDK: b757e9df0c7b0de73c0741c4f8ecd725ca0439dc
   lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
 
 PODFILE CHECKSUM: 3418c1d41aff12351e6db644690290841cb9cf14
 
-COCOAPODS: 1.13.0
+COCOAPODS: 1.14.3
